@@ -1,0 +1,19 @@
+:root{
+  --bg:#f7f9fc;
+  --card:#ffffff;
+  --accent:#0b5fff;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; background:var(--bg); color:var(--text); margin:0; line-height:1.5}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.site-header{background:linear-gradient(90deg,#ffffff,#f0f4ff);padding:28px 0;border-bottom:1px solid #e6eefc}
+.site-header h1{margin:0 0 8px;font-size:28px}
+.tagline{color:#556}
+#courses h2,#about h2{margin-top:24px}
+#course-list{list-style:none;padding:0;margin:12px 0}
+#course-list li{background:var(--card);padding:14px;border-radius:12px;margin-bottom:10px;box-shadow:0 6px 18px rgba(12,30,60,0.06)}
+.course-title{display:flex;justify-content:space-between;align-items:center}
+.course-title h3{margin:0;font-size:18px}
+.course-meta{font-size:13px;color:#666}
+.site-footer{padding:18px 0;text-align:center;color:#667}
